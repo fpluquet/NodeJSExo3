@@ -4,6 +4,8 @@ const app = express()
 
 app.use(express.static("public")) // commentaire
 
+// jhsjdh
+
 app.get("/", (req, res) => {
   res.send("<h1>Bonjour :D</h1>" + Date())
 })
